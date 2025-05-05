@@ -1,0 +1,19 @@
+{
+  "name": "chartjs-hm",
+  "version": "1.0.0",
+  "description": "idk",
+  "homepage": "https://markiianperliak.github.io/chartjs-hm/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /chartjs-hm/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.9",
+    "parcel": "^2.14.4"
+  }
+}
