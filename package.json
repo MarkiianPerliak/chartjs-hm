@@ -15,5 +15,8 @@
   "dependencies": {
     "chart.js": "^4.4.9",
     "parcel": "^2.14.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
